@@ -1,0 +1,87 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #5c7cfa;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #5c7cfa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4760d1;
+}
+
+footer {
+    background-color: #5c7cfa;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#notification-bar {
+    position: fixed;
+    top: -200px; /* Initially hidden */
+    left: 0;
+    width: 100%;
+    background-color: #f44336; /* Red background color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: top 0.5s; /* Add smooth sliding transition */
+}
+  
+#notification-bar.show {
+    top: 0; /* Show the notification bar */
+}  
